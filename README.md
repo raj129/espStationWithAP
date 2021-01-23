@@ -1,5 +1,5 @@
 # ESP as Station + AP mode
-We can send a request to those devices which are connected via ESP8266/ESP32 Access Point. The device which is serving as a accesspoint it is also serving as HTTP server to sensors. 
+We can send a request to those devices which are connected to ESP8266/ESP32 Access Point. In the example, nodeMCU is working as an Access point and HTTP server at the same time. If you want to control devices over the Internet, then you may need to configure your router for virtual server and dynamic DNS for the domain. 
 
 > To have better idea please refer the sketch.
 > https://sketchboard.me/lCwuGD5PizO#
